@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+clock-venv/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime alarm data and scheduler ownership lock
+data/alarms.json
+data/alarms.json.lock
+data/alarms.json.scheduler.lock
